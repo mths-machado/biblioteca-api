@@ -1,0 +1,24 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "morgan": "^1.12.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
