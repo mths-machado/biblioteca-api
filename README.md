@@ -10,14 +10,19 @@ Node.js, Express, mysql, morgan, body-parser, cors e nodemon.
 
 1. Clone o repositório ou baixe os arquivos.
 2. Instale as dependências:
-```bash
-npm install
-```
-3. Ligue o MySQL (serviço, XAMPP, como preferir) e rode o script do banco. Pelo terminal:
-```bash
-mysql -u root -p < database/biblioteca.sql
-```
-Ou cole o conteúdo de `database/biblioteca.sql` na aba SQL do phpMyAdmin ou do Workbench. Ele cria o banco `biblioteca`, a tabela `livros` e 3 livros de exemplo.
+
+   ```bash
+   npm install
+   ```
+
+3. Ligue o MySQL (serviço, XAMPP, como preferir) e rode o script do banco pelo terminal:
+
+   ```bash
+   mysql -u root -p < database/biblioteca.sql
+   ```
+
+   Ou cole o conteúdo de `database/biblioteca.sql` na aba SQL do phpMyAdmin ou do Workbench. Ele cria o banco `biblioteca`, a tabela `livros` e 3 livros de exemplo.
+
 4. Confira o usuário e a senha em `config/db.js`. Nos meus testes usei `root` / `Biblioteca@123`, então ajuste para o seu MySQL.
 
 ## Como rodar
