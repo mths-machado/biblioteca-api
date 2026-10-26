@@ -4,7 +4,7 @@ Trabalho de API REST para gerenciar os livros de uma biblioteca, feito em Node.j
 
 ## Tecnologias
 
-Node.js, Express, mysql, morgan, body-parser, cors e nodemon.
+Node.js, Express, mysql, morgan, body-parser, cors, dotenv e nodemon.
 
 ## Como instalar
 
@@ -23,7 +23,7 @@ Node.js, Express, mysql, morgan, body-parser, cors e nodemon.
 
    Ou cole o conteúdo de `database/biblioteca.sql` na aba SQL do phpMyAdmin ou do Workbench. Ele cria o banco `biblioteca`, a tabela `livros` e 3 livros de exemplo.
 
-4. Confira o usuário e a senha em `config/db.js`. Nos meus testes usei `root` / `Biblioteca@123`, então ajuste para o seu MySQL.
+4. Copie o arquivo .env.example para .env e preencha com o usuário e a senha do seu MySQL.
 
 ## Como rodar
 
@@ -76,4 +76,5 @@ app.js                     middlewares e rotas
 config/db.js               conexão com o MySQL
 routes/livroRoutes.js      rotas do CRUD
 database/biblioteca.sql    script do banco
+.env.example   modelo das variáveis de ambiente
 ```
